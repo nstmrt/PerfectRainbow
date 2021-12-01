@@ -1,4 +1,4 @@
-import Rainbow
+import PerfectRainbow
 
 print("接天莲叶\("无穷碧".green)，映日荷花\("别样红".red)")
 print("\("两只黄鹂".yellow)鸣翠柳，一行白鹭\("上青天".lightBlue)。".lightGreen.underline)

@@ -25,7 +25,7 @@
 //  THE SOFTWARE.
 
 import XCTest
-import Rainbow
+import PerfectRainbow
 
 class ConsoleStringTests: XCTestCase {
 

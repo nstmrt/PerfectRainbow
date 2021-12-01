@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Rainbow
+@testable import PerfectRainbow
 
 class ColorTests: XCTestCase {
 

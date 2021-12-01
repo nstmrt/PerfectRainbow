@@ -3,18 +3,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "Rainbow",
+    name: "PerfectRainbow",
     products: [
-        .library(name: "Rainbow", targets: ["Rainbow"]),
+        .library(name: "PerfectRainbow", targets: ["PerfectRainbow"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "Rainbow", dependencies: [], path: "Sources"),
+        .target(name: "PerfectRainbow", dependencies: [], path: "Sources"),
         .target(
             name: "RainbowPlayground",
-            dependencies: ["Rainbow"],
+            dependencies: ["PerfectRainbow"],
             path:"Playground"
         ),
-        .testTarget(name: "RainbowTests", dependencies: ["Rainbow"], path: "Tests"),
+        .testTarget(name: "RainbowTests", dependencies: ["PerfectRainbow"], path: "Tests"),
     ]
 )

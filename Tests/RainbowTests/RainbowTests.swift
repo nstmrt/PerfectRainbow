@@ -25,7 +25,7 @@
 //  THE SOFTWARE.
 
 import XCTest
-@testable import Rainbow
+@testable import PerfectRainbow
 
 class RainbowTests: XCTestCase {
     

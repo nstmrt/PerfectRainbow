@@ -19,7 +19,7 @@ Nifty way, using the `String` extension, and print the colorized string.
 ### Named Color & Style
 
 ```swift
-import Rainbow
+import PerfectRainbow
 
 print("Red text".red)
 print("Blue background".onBlue)
@@ -143,7 +143,7 @@ You can manually change this behavior by either:
 You can also use the more verbose way if you want:
 
 ```swift
-import Rainbow
+import PerfectRainbow
 let output = "The quick brown fox jumps over the lazy dog"
                 .applyingCodes(Color.red, BackgroundColor.yellow, Style.bold)
 print(output) // Red text on yellow, bold of course :)
